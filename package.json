@@ -4,7 +4,8 @@
     "date-fns": "^4.1.0"
   },
   "scripts": {
-    "dev": "webpack --mode development --watch"
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production"
   },
   "devDependencies": {
     "css-loader": "^7.1.2",
